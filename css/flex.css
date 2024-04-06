@@ -1,0 +1,65 @@
+/* header */
+.conteiner {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    
+}
+.header-nav-list {
+    display: flex;
+    justify-content: center;
+}
+.header {
+    height: 80px;
+    margin-bottom: 32px;
+    
+} 
+.parent-flex {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav > .header-list {
+    display: flex;
+}
+.header-contact {
+    display: flex;
+} 
+.header-nav-item:not(:last-child) {
+    padding-right: 50px;
+}
+
+.header-contact-item:not(:last-child) {
+    padding-right: 50px;
+}
+/* main */
+.advantages-list {
+    display: flex;
+    justify-content: center;
+}
+.advantages-item:not(:last-child) {
+    padding-right: 30px;
+}
+.developments-title {
+    display: flex;
+    justify-content: center;
+}
+.developments-list {
+    display: flex;
+    justify-content: center;
+}
+.developments-list-item:not(:last-child) {
+    padding-right: 30px;
+}
+.ourteam-title {
+    display: flex;
+    justify-content: center;
+}
+.ourteam-list {
+    display: flex;
+    justify-content: center;
+}
+.ourteam-list-item:not(:last-child) {
+    padding-right: 30px;
+}
+/* portfolio */
