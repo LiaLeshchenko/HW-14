@@ -29,16 +29,10 @@ body {
 }
 .item {
     color: var(--blue-color);
+}
+.header-nav-item {
     font-weight: 500;
     line-height: (16 / 14);
-}
-.item2 {
-    font-weight: 500;
-    line-height: 16px;
-}
-.item3 {
-    font-weight: 500;
-    line-height: 16px;
 }
 .contact-item {
     font-weight: 500;
@@ -205,42 +199,46 @@ body {
     margin-right: auto;
     outline: 3px dotted orangered; 
 } 
-.header {
-    margin-bottom: 92px;
-}
 .hero {
     display: flex;
     align-items: center;
     text-align: center; 
     height: 600px;
 }
-.contact-item:is(:hover, :focus) {
-    color: var(--blue-color);
+.header-nav-studio:is(:hover, :focus) {
     cursor: pointer;
+    color: var(--blue-color);
 }
-.item:is(:hover, :focus) {
+.header-nav-portfolio:is(:hover, :focus) {
     color: var(--blue-color);
+}
+.portfolio-filter-button:is(:hover, :focus) {
     cursor: pointer;
+    background-color: var(--blue-color);
 }
 .hero-title {
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 .advantages-item-title {
-    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 .header-Studio {
     margin-right: 93px;
 }
-.item3 {
-    margin-right: 344px;
-}
 .developments-title {
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 .ourteam-title {
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 .ourteam-list {
     padding-bottom: 94px;
+}
+.portfolio-title {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.portfolio {
+    padding-top: 94px;
 }
 

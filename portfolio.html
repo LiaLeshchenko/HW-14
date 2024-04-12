@@ -10,28 +10,29 @@
 wght@0,700;1,700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/flex.css">
     </head>
 
   <body class="body">
     <header class="header">
-      <div class="container header-container">
+      <div class="container header-container parent-flex">
       <a href="./index.html" class="header-Studio"><span class="header-Web">Web</span>Studio</a>
       <nav class="header-nav">
         <ul class="header-nav-list">
           <li class="header-nav-item item"><a class="header-nav-link" href="./index.html">Студія</a></li>
-          <li class="header-nav-item item2"><a class="header-nav-link" href="./portfolio.html">Портфоліо</a></li>
+          <li class="header-nav-item item2"><a class="header-nav-link header-nav-portfolio" href="./portfolio.html">Портфоліо</a></li>
           <li class="header-nav-item item3"><a class="header-nav-link" href="#">Контакти</a></li>
         </ul>
       </nav>
       <ul class="header-contact">
-        <li class="header-contact-item contact-item"><a class="header-contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li class="header-contact-item contact-item"><a class="header-contact-link header-nav-portfolio" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
         <li class="header-contact-item contact-item2"><a class="header-contact-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
       </div>
     </header>
     <main>
       <section class="portfolio">
-        <div class="container portfolio-container">
+        <div class="container">
         <ul class="portfolio-filter">
           <li class="portfolio-item"><button type="submit" class="filter-button portfolio-filter-button">Усі</button></li>
           <li class="portfolio-item"><button type="submit" class="filter-button">Веб-сайти</button></li>
